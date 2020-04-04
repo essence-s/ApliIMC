@@ -1,0 +1,159 @@
+	
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins',sans-serif;
+	font-family: 'Poppins', sans-serif;
+
+}
+.general{
+	max-width: 800px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+.coteFormuC{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+#formuCAl{
+	/*padding: 150px 80px;*/
+	background: #dbdddd;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;		
+}
+#formuCAl h1{
+	
+	text-align: center;
+	font-size: 3rem;
+	line-height: 0;
+	color: #444444;
+}
+.coteInpt{
+
+	display: grid;
+	/*grid-template-columns: 1fr;*/
+	justify-content: center;
+
+
+}
+.coteInpt input{
+	font-family: 'Poppins',sans-serif;
+	width: 173px;
+	margin-top: 25px;
+	border: 0;
+	font-size: 1rem;
+	padding: 5px 6px;
+	/*border-radius: 5px;*/
+	/*border-bottom: solid 1px #97c619;*/
+}
+.btnModi{
+	background:#97c619 ;
+	border-bottom: 3px solid #7ca100;
+	border-radius: 5px;
+	padding: 6px 8px;
+	font-family: 'Poppins',sans-serif;
+	color: white;
+	margin-top: 25px;
+	transition: 0.5s;
+	cursor: pointer;
+	text-align: center;
+}
+.btnModi:hover{
+	
+    background: #7ca100;
+    border-bottom: 3px solid #97c619;
+    
+}
+
+
+/*d*/
+.coteConsejo{
+	background: #dbdddd;
+}
+.consejo{
+	background: #536dab;
+	margin:50px;
+	padding: 15px 20px;
+	border-radius: 5px;
+	color: white;
+}
+.consejo2{
+	background: #536dab;
+	margin:5px 15px;
+	padding: 15px 20px;
+	border-radius: 5px;
+	color: white;
+	font-size:0.9rem;
+}
+
+
+/*resultado*/
+.coteResultado{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+}
+
+.resultado{
+	width: 100%;
+	margin-top: 58px;
+}
+.resultado .coteCuadro{
+	display: flex;
+    justify-content: flex-end;
+    width: 88%;
+}
+.posRel{
+	position: relative;
+}
+.resultado .cuadro{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	bottom: 47px;
+	position: absolute;
+
+}
+.resultado .cuadro h1{
+	background: #97c619;
+	line-height: 1;
+	margin: 0; 
+	padding: 10px 20px;
+	border-radius:10px;
+	font-size: 1rem;
+	color: white;
+
+}
+.lineasIMC{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	font-size: 0.7rem;
+	text-align: center;
+	padding: 25px 15px;
+}
+.lineasIMC .linea{
+	margin-left: 4px;
+	height: 6px;
+
+}
+.lin1{
+	background: linear-gradient(45deg, #eeb123, #24cb26);
+}
+.lin2{
+	background: linear-gradient(45deg, #24cb26, #24cb54);
+}
+.lin3{
+	background: linear-gradient(45deg, #24cb54, #3ce3d0);
+}
+.lin4{
+	background: linear-gradient(45deg, #3ce3d0, #45c1be);
+}

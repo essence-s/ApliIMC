@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>A V</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="stilo.css">
+
+</head>
+<body>
+	<div class="general">
+		<section style="padding: 50px">
+			<div class="coteFormuC">
+
+				<div id="secfir">	
+					<form id="formuCAl">
+						<h1>IMC</h1>
+						<div class="coteInpt">
+							<input type="text" id="peso" placeholder="PESO -Ejemplo:60" required>
+							<input type="text" id="altura" placeholder="ALTURA -Ejemplo:1.70" required>
+
+							<div id="btnCAl" class="btnModi">CALCULAR IMC</div>
+						</div>
+					
+					</form>
+				</div>
+
+				<div id="secResult"   style="display: none;">
+					<div class="coteResultado">
+						
+						<div class="resultado">
+							
+							<div class="lineasIMC">
+
+								<div class="posRel">
+									<div class="cuadro">
+										<h1>Tu IMC : <div class="imcRe"></div></h1>
+
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+									</div>
+									<div class="linea lin1"></div>
+									<p>Bajo Peso</p>
+								</div>
+								<div class="posRel">
+									<div class="cuadro">
+										<h1>Tu IMC : <div class="imcRe"></div></h1>
+
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+									</div>
+									<div class="linea lin2"></div>
+									<p>Saludable</p>
+								</div>
+
+								<div class="posRel">
+									<div class="cuadro">
+										<h1>Tu IMC : <div class="imcRe"></div></h1>
+
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+									</div>
+									<div class="linea lin3"></div>
+									<p>Sobrepeso</p>
+								</div>
+
+								<div class="posRel">
+									<div class="cuadro">
+										<h1>Tu IMC : <div class="imcRe"></div></h1>
+
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+									</div>
+									<div class="linea lin4"></div>
+									<p>Obesidad</p>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="consejo2">
+		 
+
+							El equilibrio del organismo  se obtiene con mayor facilidad si el peso de una persona es normal. Una dieta balanceada y ejercicio ayudan a mantenerse en esta categoría.
+						</div>
+
+						<div id="regresobtn" class="btnModi"> CAlCULAR DE NUEVO </div>
+
+					</div>
+				</div>
+
+				<div class="coteConsejo">
+					<div class="consejo">
+						<h4>¿Cómo se mide el IMC?</h4>
+
+	 
+						<p style="font-size: 0.9rem;">La fórmula del IMC es el peso en kilógramos dividido por el cuadrado de la altura en metros (kg/m2). El IMC es una indicación simple de la relación entre el peso y la talla que se utiliza frecuentemente para identificar el sobrepeso y la obesidad en los adultos, tanto a nivel individual como poblaciona</p>
+					</div>
+				</div>
+
+			</div>
+			
+		</section>
+
+	</div>
+
+<script src="app.js"></script>
+</body>
+</html>
